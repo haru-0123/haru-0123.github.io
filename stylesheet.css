@@ -45,7 +45,10 @@ li {
   height: 270px;
   margin: 0 auto;
   padding: 0 4%;
+  color: #24292e;
 }
+#header h1 a:pointer;
+
 #header ul {
   display: flex;
   padding: 10px 0;
