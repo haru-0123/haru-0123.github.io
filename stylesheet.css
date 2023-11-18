@@ -111,6 +111,8 @@ Index
 }
 #index .index-inner .index-list li {
   margin-bottom: 20px;
+  list-style: none;
+
 }
 /*
 最後のliタグには margin-bottom を設定しない
