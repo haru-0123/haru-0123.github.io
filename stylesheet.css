@@ -107,6 +107,7 @@ Index
 #index .index-inner .index-list {
   display: table;
   margin: 0 auto;
+　　　　border: none
 }
 #index .index-inner .index-list li {
   margin-bottom: 20px;
