@@ -50,7 +50,7 @@ li {
 #header h1 a:pointer;
 
 #header ul {
-  display: flex;
+  text-align: center;       
   padding: 10px 0;
 }
 #header li {
