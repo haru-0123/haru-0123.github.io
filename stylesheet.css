@@ -78,6 +78,8 @@ Mainvisual
   max-width: 1920px;
   height: 420px;
   object-fit: contain;
+  margin: auto;
+  display: block;
 }
 
 /*-------------------------------------------
@@ -233,16 +235,4 @@ SP
     padding-top: 0;
   }
 
-  /*-------------------------------------------
-  Contact
-  -------------------------------------------*/
-  #contact dl {
-    flex-direction: column;
-  }
-  #contact dt {
-    width: 100%;
-  }
-  #contact dd {
-    width: 100%;
-  }
-}
+
