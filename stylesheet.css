@@ -36,6 +36,11 @@ ul {
 #header {
   margin-top: 40px;
 }
+
+#header h1{
+  margin-bottom: 40px;
+}
+
 /*
 h1タグ
 line-height にh1タグの高さよりも小さい値「1px」を指定することで、
