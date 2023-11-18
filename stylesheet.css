@@ -100,9 +100,7 @@ Index
   margin-bottom: 60px;
 }
 
-#index .index-inner {
-　　　　border: none
-}
+
 
 /*
 「display: table;」と「margin: 0 auto;」で中央に配置。
@@ -111,7 +109,7 @@ Index
 #index .index-inner .index-list {
   display: table;
   margin: 0 auto;
-　　　　border: none
+　　　　border: none;
 }
 #index .index-inner .index-list li {
   margin-bottom: 20px;
