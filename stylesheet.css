@@ -249,3 +249,34 @@ SP
     padding: 40px 0 0 0;
   }
 }
+
+
+
+
+
+#sns nav{
+text-align: center;
+}
+#sns nav ul{
+margin: 0 ;
+padding: 0 ;
+display: flex; /* Flexコンテナを使ってリストアイテムを整列 */
+justify-content: center; /* 中央揃え */
+list-style: none; /* リストの点を削除 */
+  
+}
+#sns nav ul li{
+display: inline-block;
+min-width: 90px;
+margin: 0 10px; 
+}
+
+#sns nav ul li a{
+text-decoration: none;
+color: #333;
+}
+
+#sns nav ul li a:hover{
+}
+
+
