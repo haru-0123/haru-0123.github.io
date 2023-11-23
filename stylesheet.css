@@ -102,6 +102,9 @@ Index
 
 .parent {
   displey: flex;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+  
 }
 
 .child {
