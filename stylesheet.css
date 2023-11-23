@@ -102,6 +102,7 @@ Index
 
 .parent {
   display: flex;
+  flex-wrap: no-wrap;
 }
 
 .child {
