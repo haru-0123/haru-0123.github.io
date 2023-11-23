@@ -100,7 +100,13 @@ Index
   margin-bottom: 60px;
 }
 
+.parent {
+  displey: flex;
+}
 
+.child {
+  width: 50%;
+]
 
 /*
 「display: table;」と「margin: 0 auto;」で中央に配置。
