@@ -166,6 +166,9 @@ SP
 @media screen and (max-width: 1024px) {
   .inner {
     padding: 0 10px;
+
+
+    
   }
 
   /*-------------------------------------------
@@ -182,13 +185,8 @@ SP
     padding: 40px 10px;
   }
 
-
-/* Adjustments for mobile pages */
-@media (max-width: 600px) {
-    .index-list {
-        padding-left: 20px; /* Increase left padding for index-list items */
-    }
 }
+
   
 
 #sns nav{
