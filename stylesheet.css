@@ -175,7 +175,16 @@ SP
     font-size: 0.8rem; /* フォントサイズを小さくする */
   }
 
+  #sns nav ul li{
+    min-width: 60px; /* 項目の最小幅を縮小 */
+    margin: 0 5px; /* 項目間の余白を縮小 */
+  }
 
+  #sns nav ul li a{
+    font-size: 0.8rem; /* フォントサイズを小さくする */
+  }
+
+}
 
 #sns nav{
 text-align: center;
