@@ -21,7 +21,7 @@ ul {
 /* 中のコンテンツ部分の最大幅を設定 */
 .inner {
   max-width: 800px;
-  margin: 0px 10px;
+  margin: 0px auto;
 }
 .section-title {
   font-size: 1.125rem;
