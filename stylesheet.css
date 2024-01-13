@@ -63,7 +63,7 @@ text-align: center;
 }
 nav ul{
 margin: 0 ;
-padding: 0 ;
+padding: 0 0 10px 0;
 display: flex; /* Flexコンテナを使ってリストアイテムを整列 */
 justify-content: center; /* 中央揃え */
 list-style: none; /* リストの点を削除 */
