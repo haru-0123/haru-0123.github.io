@@ -30,7 +30,9 @@ ul {
   text-align: center;
 }
 
-
+.child2 {
+  text-align: right;
+}
 
 /*-------------------------------------------
 ヘッダー
@@ -102,8 +104,13 @@ Index
   margin-bottom: 60px;
 }
 
+.parent {
+  display: flex;
+  flex-wrap: no-wrap;
+}
 
-
+.child {
+]
 
 /*
 「display: table;」と「margin: 0 auto;」で中央に配置。
@@ -158,7 +165,8 @@ SP
   #index {
     padding: 40px 20px;
   }
-}
+
+
 
 
 #sns nav{
@@ -185,3 +193,5 @@ color: #333;
 
 #sns nav ul li a:hover{
 }
+
+
