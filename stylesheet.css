@@ -111,9 +111,15 @@ Index
 「display: table;」と「margin: 0 auto;」で中央に配置。
 ※この方法を使うとテキストの長さに応じて可変で中央配置できる
 */
-#index .index-inner  {
+#index   {
   display: table;
   margin: 0 auto;
+　　　　border: none;
+}
+
+.index-inner  {
+  display: table;
+  margin: 0 30px;
 　　　　border: none;
 }
 
