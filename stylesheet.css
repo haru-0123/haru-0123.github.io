@@ -184,7 +184,19 @@ SP
   #index {
     padding: 40px 10px;
   }
+  .index-inner.parent {
+    flex-direction: column; /* 子要素を縦並びにする */
+  }
+  
+  .vertical-line {
+    display: none; /* 垂直線を非表示にする */
+  }
 
+  .chiled, .child2 {
+    text-align: center; /* テキストを中央揃えにする */
+    width: 100%; /* 幅を100%に設定してフル幅にする */
+    padding: 0 10px; /* パディングを追加してテキストに余白を持たせる */
+  }
 }
 
   
