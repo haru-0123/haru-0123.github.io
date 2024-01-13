@@ -23,6 +23,22 @@ ul {
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* Styling for the vertical line between chiled and child2 */
+.vertical-line {
+    border-left: 1px solid #000;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+}
+
+/* Flexbox layout for parent to align chiled and child2 */
+.index-inner.parent {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
 .section-title {
   font-size: 1.125rem;
   font-weight: bold;
@@ -167,7 +183,13 @@ SP
   }
 
 
-
+/* Adjustments for mobile pages */
+@media (max-width: 600px) {
+    .index-list {
+        padding-left: 20px; /* Increase left padding for index-list items */
+    }
+}
+  
 
 #sns nav{
 text-align: center;
