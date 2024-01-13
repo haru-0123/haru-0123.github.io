@@ -133,7 +133,7 @@ Index
 */
 .index-section .index-inner .index-list {
   display: table;
-  margin: 0 auto;
+  margin: 0 60px;
 　　　　border: none;
 }
 .index-section .index-inner .index-list li {
@@ -183,6 +183,15 @@ SP
   .index-section {
     padding: 40px 10px;
   }
+
+  .index-section .index-inner .index-list {
+  display: table;
+  margin: 0 60px;
+　　　　border: none;
+  }
+
+
+  
   .index-inner.parent {
     flex-direction: column; /* 子要素を縦並びにする */
   }
@@ -194,7 +203,7 @@ SP
   .chiled, .child2 {
     text-align: center; /* テキストを中央揃えにする */
     width: 100%; /* 幅を100%に設定してフル幅にする */
-    padding: 0 10px; /* パディングを追加してテキストに余白を持たせる */
+    padding: 10px 0px; /* パディングを追加してテキストに余白を持たせる */
   }
 }
 
