@@ -212,6 +212,7 @@ SP
 }
 
 
+
 /* フェードインアニメーション */
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(20px); }
@@ -229,4 +230,6 @@ SP
     opacity: 1;
     animation: fadeIn 1s ease forwards;
 }
+
+
 
