@@ -216,4 +216,21 @@ SP
 
 
 
+/* フェードインアニメーション */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 初期状態では要素を透明に設定 */
+.inner {
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* スクロール時に要素が表示されるクラス */
+.inner.visible {
+    opacity: 1;
+    animation: fadeIn 1s ease forwards;
+}
 
