@@ -218,19 +218,33 @@ SP
 
 /* フェードインアニメーション */
 @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
+    from { opacity: 0; transform: translateX(-100px); }
+    to { opacity: 1; transform: translateX(0); }
 }
 
-/* 初期状態では要素を透明に設定 */
+/* フェードアウトアニメーション */
+@keyframes fadeOut {
+    from { opacity: 1; transform: translateX(0); }
+    to { opacity: 0; transform: translateX(100px); }
+}
+
+/* 初期状態では要素を透明に設定し、外に移動させる */
 .inner {
     opacity: 0;
-    transition: opacity 1s ease, transform 1s ease;
+    transform: translateX(-100px);
+    transition: all 0.5s ease;
 }
 
 /* スクロール時に要素が表示されるクラス */
 .inner.visible {
     opacity: 1;
-    animation: fadeIn 1s ease forwards;
+    transform: translateX(0);
+    animation: fadeIn 0.5s ease forwards;
 }
 
+/* スクロール時に要素が非表示になるクラス */
+.inner.hidden {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: fadeOut 0.5s ease forwards;
+}
