@@ -91,7 +91,7 @@ nav ul li a:hover{
 
 #lang-switch-btn {
   padding: 5px 10px;
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
   border: none;
   cursor: pointer;
