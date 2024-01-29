@@ -83,6 +83,20 @@ color: #333;
 nav ul li a:hover{
 }
 
+.language-switch {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#lang-switch-btn {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 /*-------------------------------------------
 Mainvisual
 -------------------------------------------*/
