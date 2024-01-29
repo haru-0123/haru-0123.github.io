@@ -56,8 +56,8 @@
             <h2 class="section-title">Education</h2>
             <div class="index-inner">
               <ul class="index-list">
-                <li>名前　岩手県出身</li>
-                <li>言語：日本語、英語、モンゴル語</li>
+                <li data-lang-jp="名前　岩手県出身" data-lang-en="Name: Born in Iwate Prefecture">名前　岩手県出身</li>
+                <li data-lang-jp="言語：日本語、英語、モンゴル語" data-lang-en="Language:Japanese, English, Mongolian">言語：日本語、英語、モンゴル語</li>
                 <li>クリエイティブディレクター、研究者、作家。</li>
                 <li>〇〇をしています。専門は〇〇です。〇〇を書いています。aaa</li>
               </ul>
@@ -188,7 +188,7 @@
             });
 
             // ボタンのテキストも更新
-            document.getElementById('lang-switch-btn').textContent = currentLang === 'jp' ? 'EN' : 'JP';
+            document.getElementById('lang-switch-btn').textContent = currentLang === 'jp' ? 'EN' : '日';
         }
 
         document.getElementById('lang-switch-btn').addEventListener('click', switchLanguage);
