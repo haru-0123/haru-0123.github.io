@@ -85,7 +85,7 @@
             <h2 class="section-title">Work Experience</h2>
             <div class="index-inner">
               <ul class="index-list">
-                <li data-lang-jp="任天堂株式会社<br>-財務部 外貨資金担当(1年5ヶ月)<br>-アジア・オセアニア事業部 東南アジア営業担当" data-lang-en="Nintendo Co., Ltd.<br>- Finance Department, Foreign Currency Representative (1 year and 5 months)<br>- Asia & Oceania Business Department, Southeast Asia Sales Representative">任天堂株式会社<br>-財務部  外貨資金担当(1年5ヶ月)<br>-アジア・オセアニア事業部  東南アジア営業担当</li>
+                <li data-lang-jp="任天堂株式会社||-財務部 外貨資金担当(1年5ヶ月)||-アジア・オセアニア事業部 東南アジア営業担当" data-lang-en="Nintendo Co., Ltd.||- Finance Department, Foreign Currency Representative (1 year and 5 months)||- Asia & Oceania Business Department, Southeast Asia Sales Representative">任天堂株式会社<br>-財務部 外貨資金担当(1年5ヶ月)<br>-アジア・オセアニア事業部 東南アジア営業担当</li>
                 <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
                 <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
                 <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
@@ -101,8 +101,8 @@
             <div class="index-inner">
               <ul class="index-list">
                 <li data-lang-jp="中小企業診断士" data-lang-en="Small and Medium sized Enterprise Consultant">中小企業診断士</li>
-                <li data-lang-jp="日本商工会議所  簿記検定2級" data-lang-en="The Official Business Skills Test in Bookkeeping,　2nd grade">日本商工会議所  簿記検定2級</li>
-                <li data-lang-jp="統計質保証推進協会  統計検定2級" data-lang-en="Japan Statistical Society Certificate,　2nd grade">統計質保証推進協会  統計検定2級</li>
+                <li data-lang-jp="日本商工会議所  簿記検定2級" data-lang-en="The Official Business Skills Test in Bookkeeping, 2nd grade">日本商工会議所  簿記検定2級</li>
+                <li data-lang-jp="統計質保証推進協会  統計検定2級" data-lang-en="Japan Statistical Society Certificate, 2nd grade">統計質保証推進協会  統計検定2級</li>
                 <li data-lang-jp="日本伝講道館  柔道2段" data-lang-en="Second Grade in Judo">日本伝講道館  柔道2段</li>
                 <li data-lang-jp="文部科学省後援  色彩検定2級" data-lang-en="Test in Color Coordination, 2nd grade">文部科学省後援  色彩検定2級</li>
               </ul>
@@ -184,7 +184,7 @@
 
             document.querySelectorAll('[data-lang-jp]').forEach(function(element) {
                 var text = currentLang === 'jp' ? element.getAttribute('data-lang-jp') : element.getAttribute('data-lang-en');
-                element.textContent = text;
+                element.innerHTML = text.replace(/\|\|/g, '<br>'); 　　//"||" を <br> に置換
             });
 
             // ボタンのテキストも更新
