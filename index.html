@@ -39,7 +39,10 @@
               </a>
             </li>
           </ul>
-        </nav>  
+        </nav>
+        <div class="language-switch">
+          <button id="lang-switch-btn">EN</button>
+        </div>
       </header>
 
       <main>
@@ -172,7 +175,24 @@
 
         // スクロール時に関数を実行
         window.addEventListener('scroll', checkScroll);
-    </script>
+
+        let currentLang = 'jp'; // 初期言語を日本語とする
+
+        function switchLanguage() {
+            currentLang = currentLang === 'jp' ? 'en' : 'jp'; // 言語状態を切り替え
+
+            document.querySelectorAll('[data-lang-jp]').forEach(function(element) {
+                var text = currentLang === 'jp' ? element.getAttribute('data-lang-jp') : element.getAttribute('data-lang-en');
+                element.textContent = text;
+            });
+
+            // ボタンのテキストも更新
+            document.getElementById('lang-switch-btn').textContent = currentLang === 'jp' ? 'EN' : 'JP';
+        }
+
+        document.getElementById('lang-switch-btn').addEventListener('click', switchLanguage);
+
+    　</script>
 
 
   </body>
